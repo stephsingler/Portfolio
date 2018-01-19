@@ -1,0 +1,26 @@
+body {
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+h1 {
+  font-family: 'Satisfy', cursive;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+}
+.Nav {
+  display: flex;
+  justify-content: center;
+}
+.Nav a {
+  margin-right: 20px;
+  color: thistle;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  text-shadow: 1px 1px 3px black;
+  text-decoration: none;
+}
+.Nav a:hover {
+  color: white;
+}
