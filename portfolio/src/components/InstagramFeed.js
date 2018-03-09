@@ -12,7 +12,7 @@ const InstagramFeed = () => {
       instagram.map((insta) => {
         return (
           <div className="insta" key={insta.id}>
-            <img src={insta.url} className="single-insta" />
+            <img src={insta.url} className="single-insta" alt="" />
           </div>
         );
       })
@@ -20,18 +20,20 @@ const InstagramFeed = () => {
   }
   return (
     <MuiThemeProvider>
-      <div className="insta-button-container">
-        <RaisedButton
-        className="insta-button"
-        href="https://www.instagram.com/stephsingler/"
-        target="_blank"
-        label="Follow Me on Instagram"
-        backgroundColor="thistle"
-        icon={<FaInstagram />}
-        />
-      </div>
-      <div className="instagram">
-        {renderInsta()}
+      <div>
+        <div className="insta-button-container">
+          <RaisedButton
+          className="insta-button"
+          href="https://www.instagram.com/stephsingler/"
+          target="_blank"
+          label="Follow Me on Instagram"
+          backgroundColor="thistle"
+          icon={<FaInstagram />}
+          />
+        </div>
+        <div className="instagram">
+          {renderInsta()}
+        </div>
       </div>
     </MuiThemeProvider>
   );
