@@ -23,7 +23,7 @@ class Contact extends Component {
             <FaLinkedinSquare size={50} style={{color: '0074B8'}}/> &nbsp; Connect on Linkedin
           </a><br /><br />
           <FaEnvelope size={45} style={{color: 'FF862B'}}/> &nbsp; &nbsp; <button onClick={this.handleClick}>
-            Send me and Email!
+            Send me an Email!
           </button><br /><br />
           <p className="email">{this.state.email}</p>
           <a href="https://www.instagram.com/stephsingler/" target="_blank">

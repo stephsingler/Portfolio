@@ -403,3 +403,27 @@ h2 {
     margin-top: 35px;
   }
 }
+@media only screen and (max-width: 401px) {
+  h1 {
+    font-size: 44px;
+  }
+  .about-title {
+    margin-top: 60px;
+  }
+  .about-me {
+    padding: 10px;
+  }
+  .graph2 {
+    width: 380px;
+    height: 270px;
+  }
+  .posts {
+    margin-top: 80px;
+  }
+  .contact {
+    margin-top: 160px;
+  }
+  .contact button {
+    width: 230px;
+  }
+}
