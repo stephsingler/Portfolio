@@ -1,17 +1,15 @@
 import React from 'react';
 import {Card, CardMedia, CardTitle} from 'material-ui/Card';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-//data
-import projects from "../data/projects";
 //components
 
-const Portfolio = () => {
+const Portfolio = (props) => {
   const styles = {
     fontSize: "20px",
   }
   const renderProjects = () => {
     return (
-      projects.map((project) => {
+      props.projects.map((project) => {
         return (
           <a href={project.url} target="_blank" key={project.id} className="card-link">
             <Card className="card" style={{backgroundColor: "#ffffff"}}>

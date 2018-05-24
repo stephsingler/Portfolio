@@ -1,8 +1,8 @@
 import React from 'react';
 //components
-import InstagramFeed from './InstagramFeed';
+import InstagramFeedContainer from '../containers/InstagramFeedContainer';
 import Skills from './Skills';
-import Portfolio from './Portfolio';
+import PortfolioContainer from '../containers/PortfolioContainer';
 
 const About = () => {
   return (
@@ -15,14 +15,14 @@ const About = () => {
             I enjoy turning complex code into beautiful and innovative interface designs. When I'm not coding or screaming at my computer you can find me drinking some wine & watching Modern Family.
           </p>
         </div>
-        <img src={require("../images/philly.jpg")} alt="" className="sketch-img" />
+        <img src={require("../images/bio-photo.jpg")} alt="" className="sketch-img" />
       </div>
       <Skills />
       <h1> My Latest Work</h1>
       <div className="latest-work">
-        <Portfolio />
+        <PortfolioContainer />
       </div>
-      <InstagramFeed />
+      <InstagramFeedContainer />
     </div>
   );
 }

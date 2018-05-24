@@ -3,13 +3,11 @@ import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import { FaInstagram } from 'react-icons/lib/fa';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-//data
-import instagram from '../data/instagram';
 
-const InstagramFeed = () => {
+const InstagramFeed = (props) => {
   const renderInsta = () => {
     return (
-      instagram.map((insta) => {
+      props.instagram.map((insta) => {
         return (
           <div className="insta" key={insta.id}>
             <img src={insta.url} className="single-insta" alt="" />
