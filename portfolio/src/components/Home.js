@@ -1,11 +1,11 @@
 import React from 'react';
 //components
-import About from './About';
+import AboutContainer from '../containers/AboutContainer';
 
 const Home = () => {
   return (
     <div className="home">
-      <About />
+      <AboutContainer />
     </div>
   );
 }

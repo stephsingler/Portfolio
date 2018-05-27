@@ -1,10 +1,13 @@
 import React from 'react';
+// import {Card, CardMedia, CardTitle} from 'material-ui/Card';
+// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 //components
 import InstagramFeedContainer from '../containers/InstagramFeedContainer';
 import Skills from './Skills';
 import PortfolioContainer from '../containers/PortfolioContainer';
 
-const About = () => {
+
+const About = props => {
   return (
     <div className="about">
       <div className="sketch">
@@ -18,10 +21,10 @@ const About = () => {
         <img src={require("../images/bio-photo.jpg")} alt="" className="sketch-img" />
       </div>
       <Skills />
-      <h1> My Latest Work</h1>
-      <div className="latest-work">
-        <PortfolioContainer />
-      </div>
+        <h1> My Latest Work</h1>
+          <div className="latest-work">
+            <PortfolioContainer />
+          </div>
       <InstagramFeedContainer />
     </div>
   );
