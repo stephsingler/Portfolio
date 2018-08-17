@@ -39,6 +39,14 @@ const state = {
     {
       id: 9,
       url: "https://i.imgur.com/9EOmXgW.jpg?1"
+    },
+    {
+      id: 10,
+      url: "https://i.imgur.com/rM0AhBS.jpg"
+    },
+    {
+      id: 11,
+      url: "https://i.imgur.com/rKvtBoF.jpg"
     }
   ],
   projects: [
@@ -51,22 +59,29 @@ const state = {
     },
     {
       id: 1,
+      title: "WinePairs",
+      subtitle: "React Native Mobile App - Download on the App Store!",
+      url: "https://itunes.apple.com/us/app/winepairs/id1411661587?ls=1&mt=8",
+      photo: "https://i.imgur.com/axvZzR1.png"
+    },
+    {
+      id: 2,
+      title: "Pillar Owner's Association",
+      subtitle: "Website Design/Development",
+      url: "http://www.pillaroa.com/",
+      photo: "https://i.imgur.com/9nfOVDx.png"
+    },
+    {
+      id: 3,
       title: "Singler PLC",
       subtitle: "React Web App",
       url: "https://singler-law.netlify.com/",
       photo: "https://i.imgur.com/yswpEo6.jpg"
     },
     {
-      id: 2,
-      title: "Pillar Owner's Association",
-      subtitle: "Website Design",
-      url: "http://www.pillaroa.com/",
-      photo: "https://i.imgur.com/9nfOVDx.png"
-    },
-    {
-      id: 3,
+      id: 4,
       title: "31Sixteen Vineyard Solutions",
-      subtitle: "Website Design",
+      subtitle: "Website Design/Development",
       url: "http://31sixteen.com",
       photo: "https://i.imgur.com/ZAlOVS6.png"
     }

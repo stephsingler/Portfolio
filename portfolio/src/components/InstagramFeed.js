@@ -4,7 +4,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import { FaInstagram } from 'react-icons/lib/fa';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-const InstagramFeed = (props) => {
+const InstagramFeed = props => {
   const renderInsta = () => {
     return (
       props.instagram.map((insta) => {
@@ -18,7 +18,7 @@ const InstagramFeed = (props) => {
   }
   return (
     <MuiThemeProvider>
-      <div>
+      <div className="instagram-feed">
         <div className="insta-button-container">
           <RaisedButton
           className="insta-button"
