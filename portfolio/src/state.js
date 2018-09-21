@@ -66,20 +66,13 @@ const state = {
     },
     {
       id: 2,
-      title: "Pillar Owner's Association",
-      subtitle: "Website Design/Development",
-      url: "http://www.pillaroa.com/",
-      photo: "https://i.imgur.com/9nfOVDx.png"
-    },
-    {
-      id: 3,
       title: "Singler PLC",
       subtitle: "React Web App",
       url: "https://singler-law.netlify.com/",
       photo: "https://i.imgur.com/yswpEo6.jpg"
     },
     {
-      id: 4,
+      id: 3,
       title: "31Sixteen Vineyard Solutions",
       subtitle: "Website Design/Development",
       url: "http://31sixteen.com",
