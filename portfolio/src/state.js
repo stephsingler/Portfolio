@@ -70,14 +70,7 @@ const state = {
       subtitle: "React Web App",
       url: "https://singler-law.netlify.com/",
       photo: "https://i.imgur.com/yswpEo6.jpg"
-    },
-    {
-      id: 3,
-      title: "31Sixteen Vineyard Solutions",
-      subtitle: "Website Design/Development",
-      url: "http://31sixteen.com",
-      photo: "https://i.imgur.com/ZAlOVS6.png"
     }
-  ],
+  ]
 }
 export default state;

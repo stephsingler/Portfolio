@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="skills">
         <div>
           <h4>Technical Skills</h4>
-          <img src={require('../images/skills-graph copy.png')} alt="" className="graph"/>
+          <img src={require('../images/skills-graph new.png')} alt="" className="graph"/>
         </div>
         <div className="life-pie">
           <h4>Life Essentials</h4>
