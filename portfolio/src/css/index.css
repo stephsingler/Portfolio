@@ -219,6 +219,11 @@ body {
 .skills .life {
   text-align: center;
 }
+.more-skills {
+  font-family: "Raleway", sans-serif;
+  color: gray;
+}
+
 h2 {
   font-family: 'Satisfy', cursive;
   color: #a8d0e6;
