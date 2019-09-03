@@ -10,7 +10,7 @@ const Skills = () => {
         <div>
           <h4>Technical Skills</h4>
           <img src={require('../images/skills-graph new.png')} alt="" className="graph"/>
-          <div className="more-skills">**TypeScript, React Native, Agile(Kanban), Webpack, Git, CI/CD, LOVE of learning</div>
+          <div className="more-skills">**Flow, React Native, Agile(Kanban), Webpack, Git, CI/CD, LOVE of learning</div>
         </div>
         <div className="life-pie">
           <h4>Life Essentials</h4>
